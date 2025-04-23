@@ -1,8 +1,8 @@
-# Advanced Calculator / 高级计算器
+# 🧮 Advanced Calculator / 高级计算器
 
-## English Documentation
+## 📖 English Documentation
 
-### Development Process
+### 🚀 Development Process
 1. **Project Initialization**: Created Lazarus project and designed the main form.
 2. **UI Design**: All buttons use TBitBtn, grouped and color-coded by function.
 3. **Function Implementation**: Implemented arithmetic, scientific, memory, and history features.
@@ -10,30 +10,30 @@
 5. **Cross-Platform Compilation**: Configured for both Win32 (32-bit) and Win64 (64-bit) targets.
 6. **Testing & Packaging**: Compiled, tested, and prepared for distribution.
 
-### Build & Packaging
+### 🏗️ Build & Packaging
 - **32-bit**: Project Options → Target OS: Win32, CPU: i386, then F9 to build.
 - **64-bit**: Project Options → Target OS: Win64, CPU: x86_64, then F9 to build.
 - Use Inno Setup or NSIS to make an installer if needed.
 
-### Directory Structure
+### 📁 Directory Structure
 - `unit1.pas`, `unit1.lfm`: Main form logic and UI.
 - `project1.lpi`, `project1.lpr`: Project files.
 - `lib/`, `backup/`: Build output and backups.
 - `imang/`: Icons and installer scripts.
 - Documentation: `README.md`, `README_EN.md`, manuals.
 
-### Cleanup Recommendations
+### 🧹 Cleanup Recommendations
 - Before release, you may delete `lib/`, `backup/`, `coverage/` folders.
 - Only distribute `project1.exe`, `project1.ico`, and documentation.
 
-### Thanks
+### 🙏 Thanks
 Thanks to the Lazarus/FPC community and all contributors.
 
 
-### Project Overview
+### 📝 Project Overview
 This project is an advanced calculator application developed using Free Pascal and Lazarus IDE. It provides a user-friendly interface with various mathematical functions, including basic arithmetic operations, trigonometric functions, logarithmic functions, and more.
 
-### Features
+### ✨ Features
 - Basic arithmetic operations (addition, subtraction, multiplication, division)
 - Scientific functions (sin, cos, tan, log, ln, exp, etc.)
 - Memory functions (MC, MR, MS, M+, M-)
@@ -41,21 +41,21 @@ This project is an advanced calculator application developed using Free Pascal a
 - Angle mode switching (degrees/radians)
 - Error handling and input validation
 
-### Project Structure
+### 🗂️ Project Structure
 - **project1.lpr**: Main project file
 - **unit1.pas**: Main unit containing all the calculator logic and UI event handlers
 - **unit1.lfm**: Form design file
 - **project1.ico**: Application icon
 - **project1.res**: Resource file
 
-### Technical Details
+### ⚙️ Technical Details
 - **Programming Language**: Free Pascal
 - **Framework**: Lazarus
 - **UI Components**: Standard Lazarus components (TButton, TEdit, TLabel, TListBox)
 - **Error Handling**: Comprehensive error checking for all mathematical operations
 - **Input Validation**: Validation for all user inputs to prevent crashes
 
-### Installation and Usage
+### 💻 Installation and Usage
 1. Open the project in Lazarus IDE
 2. Compile the project (F9)
 3. Run the application (F9 or Ctrl+F9)
@@ -81,9 +81,9 @@ The application includes comprehensive error handling for:
 
 ---
 
-## 中文文档
+## 📖 中文文档
 
-### 开发全过程
+### 🚀 开发全过程
 1. **项目初始化**：新建Lazarus工程，搭建主界面。
 2. **界面设计**：所有按钮采用TBitBtn，按功能分组并着色。
 3. **功能实现**：实现所有基础与科学运算、内存、历史等功能。
@@ -91,30 +91,30 @@ The application includes comprehensive error handling for:
 5. **跨平台编译**：配置支持Win32与Win64目标。
 6. **打包与测试**：多次编译测试，准备发布版。
 
-### 编译与打包说明
+### 🏗️ 编译与打包说明
 - 32位：项目选项→目标OS选Win32，CPU选i386，F9编译。
 - 64位：项目选项→目标OS选Win64，CPU选x86_64，F9编译。
 - 可用Inno Setup等工具生成安装包。
 
-### 目录结构
+### 📁 目录结构
 - `unit1.pas`、`unit1.lfm`：主窗体逻辑与界面
 - `project1.lpi`、`project1.lpr`：工程文件
 - `lib/`、`backup/`：编译输出与备份
 - `imang/`：图标和安装脚本
 - 文档：`README.md`、`README_EN.md`、用户手册等
 
-### 文件清理建议
+### 🧹 文件清理建议
 - 发布前可删除 `lib/`、`backup/`、`coverage/` 等临时目录
 - 正式分发仅需 `project1.exe`、`project1.ico`、文档等
 
-### 致谢
+### 🙏 致谢
 感谢所有开源社区与Lazarus团队的支持。
 
 
-### 项目概述
+### 📝 项目概述
 本项目是使用Free Pascal和Lazarus IDE开发的高级计算器应用程序。它提供了用户友好的界面和各种数学函数，包括基本算术运算、三角函数、对数函数等。
 
-### 功能特点
+### ✨ 功能特点
 - 基本算术运算（加、减、乘、除）
 - 科学函数（正弦、余弦、正切、对数、自然对数、指数等）
 - 内存功能（MC、MR、MS、M+、M-）
